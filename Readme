@@ -1,7 +1,8 @@
 # Boundless 一键脚本
 
-1.将脚本保存为 setup_boundless.sh
-2.赋予执行权限：
+1.git clone https://github.com/ccboom/boundless.git
+2. cd boundless
+3.赋予执行权限：
 chmod +x setup_boundless.sh
-3.运行脚本：
+4.运行脚本：
 ./setup_boundless.sh
