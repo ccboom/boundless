@@ -17,10 +17,10 @@ chmod +x setup_boundless.sh
 cd boundless
 
 ### 6. 编写环境文件
-vim .env.eth-sepolia 
-在export SET_VERIFIER_ADDRESS下添加两行
-export RPC_URL= 你的rpc
-export PRIVATE_KEY= 你的私钥
+##### vim .env.eth-sepolia 
+##### 在export SET_VERIFIER_ADDRESS下添加两行
+##### export RPC_URL= 你的rpc
+##### export PRIVATE_KEY= 你的私钥
 
 ### 7. 使环境生效
 source .env.eth-sepolia  
