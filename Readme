@@ -6,3 +6,8 @@
 chmod +x setup_boundless.sh
 4.运行脚本：
 ./setup_boundless.sh
+5.cd boundless
+6.vim .env.eth-sepolia 
+在export SET_VERIFIER_ADDRESS下添加两行
+export RPC_URL= 你的rpc
+export PRIVATE_KEY= 你的私钥
