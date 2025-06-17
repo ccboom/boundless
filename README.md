@@ -17,19 +17,16 @@ chmod +x setup_boundless.sh
 cd boundless
 
 ### 6. 编写环境文件
-##### vim .env.eth-sepolia 
+##### vim .env.base
 ##### 在export SET_VERIFIER_ADDRESS下添加两行
 ##### export RPC_URL= 你的rpc
 ##### export PRIVATE_KEY= 你的私钥
 
 ### 7. 使环境生效
-source .env.eth-sepolia  
+source .env.base
 
-### 8.领取Sepolia 的USDC
-前往 https://faucet.circle.com 
+### 8. 质押0.0001USDC进去 回guild验证角色
+boundless account deposit-stake 0.0001
 
-### 9. 质押10USDC进去 回guild验证角色
-boundless account deposit-stake 10
-
-### 10.获得prover角色后，记得再运行
-boundless account deposit 0.1 
+### 9.获得prover角色后，记得再运行
+boundless account deposit 0.0000001
