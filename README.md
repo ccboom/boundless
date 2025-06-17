@@ -19,8 +19,9 @@ cd boundless
 ### 6. 编写环境文件
 ##### vim .env.base
 ##### 在export SET_VERIFIER_ADDRESS下添加两行
-##### export RPC_URL= 你的rpc
-##### export PRIVATE_KEY= 你的私钥
+##### export RPC_URL=你的rpc
+##### export PRIVATE_KEY=你的私钥
+##### 注意上面填写私钥和rpc时和=号不要有空格
 
 ### 7. 使环境生效
 source .env.base
