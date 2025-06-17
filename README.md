@@ -31,3 +31,9 @@ boundless account deposit-stake 0.0001
 
 ### 9.获得prover角色后，记得再运行
 boundless account deposit 0.0000001
+
+
+
+qui
+1.如果出现 Error: Failed to deposit stake: Transaction error: contract error: HTTP error 429 with body: {"jsonrpc":"2.0","error":{"code":-32016,"message":"over rate limit"},"id":6}
+更换rpc，就可以解决
